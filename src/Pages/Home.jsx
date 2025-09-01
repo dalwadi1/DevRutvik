@@ -8,8 +8,8 @@ const Home = () => {
         <div className="w-full h-screen flex flex-1 flex-col p-10 rounded-3xl backdrop-blur-sm">
             {/* Hero section */}
             <div className="flex-1 flex flex-col gap-10 items-center justify-center">
-                <div>
-                    <h1 className="md:text-7xl text-3xl font-black bg-gradient-to-r from-white via-white to-white/80 bg-clip-text text-transparent text-center">
+                <div className='w-full'>
+                    <h1 className="md:text-7xl text-2xl font-black bg-gradient-to-r from-white via-white to-white/80 bg-clip-text text-transparent text-center">
                         Hi ! I’m{" "}
                         <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                             Rutvik
@@ -26,7 +26,7 @@ const Home = () => {
                         >
                             View Projects
                         </Link>
-                        <button className="cursor-pointer sm:px-5 sm:py-2 p-2 rounded-xl sm:font-medium bg-white text-zinc-900">
+                        <button className="text-start cursor-pointer sm:px-5 sm:py-2 p-2 rounded-xl sm:font-medium bg-white text-zinc-900">
                             Download CV
                         </button>
                     </div>
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
 
             {/* contact section - hamesha niche */}
-            <div className="mt-auto hidden sm:flex items-center justify-between w-full">
+            <div className="mt-auto hidden sm:flex items-center justify-between w-full lg:px-8 px-4">
                 <div>
                     <h5 className="text-white">let's work together</h5>
                     <Link className="text-white">parmarrutvik1807@gmail.com</Link>
@@ -42,10 +42,10 @@ const Home = () => {
                 </div>
                 <div className="flex items-end justify-center gap-2">
                     <Link>
-                        <Linkedin color="white" />
+                        <Instagram color="white" />
                     </Link>
                     <Link>
-                        <Instagram color="white" />
+                        <Linkedin color="white" />
                     </Link>
                 </div>
             </div>
