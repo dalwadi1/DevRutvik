@@ -4,8 +4,6 @@ import { Link } from 'react-router'
 
 const Header = () => {
     const [showManu, setShowManu] = useState(false)
-    console.log(showManu);
-
     return (
         <div className='flex flex-col gap-2'>
             <nav className="fixed top-3 left-0 w-full backdrop-blur-md bg-black/30 border-b border-white/10 z-50">
