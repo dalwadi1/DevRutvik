@@ -34,7 +34,7 @@ const ContactMe = () => {
                             </div>
                         </div>
                         <div className='py-5'>
-                            <Textarea className='w-full text-white' type='text' placeholder="Message" />
+                            <Textarea className='w-full text-white h-[15vh] overflow-y-hidden' type='text' placeholder="Message" />
                         </div>
                         <div className='py-2'>
                             <button className="text-start cursor-pointer sm:px-5 sm:py-2 p-2 rounded-xl sm:font-medium bg-white text-zinc-900">
