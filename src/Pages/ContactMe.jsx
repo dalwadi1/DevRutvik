@@ -4,9 +4,9 @@ import React from 'react'
 
 const ContactMe = () => {
     return (
-        <div className='min-h-screen max-w-7xl mx-auto px-6 sm:py-8 flex items-center justify-center'>
+        <div className='min-h-screen max-w-7xl mx-auto px-6 flex items-center justify-center'>
             <div className='grid sm:grid-cols-3 grid-cols-1 gap-1'>
-                <div className='flex flex-col items-start justify-center p-3'>
+                <div className='flex flex-col items-start justify-center p-2 lg:pt-10 md:pt-14 pt-20'>
                     <h4 className='md:text-2xl text-xl text-white'>Get in<span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'> touch</span></h4>
                     <div className='py-3'>
                         <h4 className='text-white'>Address</h4>
@@ -21,8 +21,8 @@ const ContactMe = () => {
                         <p className='text-white'>+91 8141971488</p>
                     </div>
                 </div>
-                <div className='col-span-2 flex flex-col justify-center items-start p-3'>
-                    <h4 className='md:text-2xl text-xl text-white text-start py-4'>Send Me A<span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'> Message</span></h4>
+                <div className='col-span-2 flex flex-col justify-center items-start p-1'>
+                    <h4 className='md:text-2xl text-xl text-white text-start py-2'>Send Me A<span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'> Message</span></h4>
 
                     <div className='p-2 w-full'>
                         <div className='flex sm:flex-row flex-col items-center justify-between gap-2'>

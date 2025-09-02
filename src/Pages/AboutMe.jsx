@@ -40,12 +40,13 @@ const AboutMe = () => {
             </div>
 
             <h4 className='md:text-4xl text-3xl text-white sm:pt-25 pt-20 py-2'>My <span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>resume</span></h4>
+
             <div className='w-full flex items-center justify-center'>
                 <Tabs defaultValue="account" className="w-full flex items-center justify-center">
                     <TabsList className='bg-transparent'>
-                        <TabsTrigger value="account" className='bg-transparent text-white text-2xl data-[state=active]:bg-transparent data-[state=active]:shadow-none'>Experience</TabsTrigger>
+                        <TabsTrigger value="account" className='cursor-pointer bg-transparent text-white text-xl data-[state=active]:bg-transparent data-[state=active]:underline data-[state=active]:shadow-none'>Experience</TabsTrigger>
                         <EllipsisVertical />
-                        <TabsTrigger value="password" className='bg-transparent text-white text-2xl data-[state=active]:bg-transparent data-[state=active]:shadow-none'>Education</TabsTrigger>
+                        <TabsTrigger value="password" className='cursor-pointer bg-transparent text-white text-xl data-[state=active]:bg-transparent data-[state=active]:underline data-[state=active]:shadow-none'>Education</TabsTrigger>
                     </TabsList>
                     <TabsContent value="account" className='w-full'>
                         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full gap-3'>
