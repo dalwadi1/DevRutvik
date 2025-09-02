@@ -25,7 +25,7 @@ const ContactMe = () => {
                     <h4 className='md:text-2xl text-xl text-white text-start'>Send Me A<span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'> Message</span></h4>
 
                     <div className='p-2 w-full'>
-                        <div className='flex sm:flex-row flex-col items-center justify-between gap-2'>
+                        <div className='flex lg:flex-row flex-col items-center justify-between gap-2'>
                             <div className='w-full'>
                                 <Input type='text' placeholder="Name" className='text-white' />
                             </div>

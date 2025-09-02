@@ -4,7 +4,7 @@ import { Outlet } from 'react-router'
 
 const MainLayout = () => {
     return (
-        <div className="bg-gradient-to-br from-[#0f172a] via-[#1e1b4b] to-[#312e81] min-h-screen">
+        <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen">
             <Header />
             <Outlet />
         </div >
