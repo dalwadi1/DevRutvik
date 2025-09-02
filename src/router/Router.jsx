@@ -6,6 +6,7 @@ import Projects from "../Pages/Projects";
 import Skills from "../Pages/Skills";
 import AboutMe from "../Pages/AboutMe";
 import Home from "../Pages/Home";
+import Resume from "@/Pages/Resume";
 
 export const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
                     {
                         path: 'get-in-touch',
                         element: <ContactMe />
+                    },
+                    {
+                        path: 'resume.pdf',
+                        element: <Resume />
                     }
                 ]
             }

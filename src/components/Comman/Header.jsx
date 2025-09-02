@@ -18,12 +18,17 @@ const Header = () => {
                         <li className="hover:text-white transition hover:underline"><Link to="/work">Projects</Link></li>
                         <li className="hover:text-white transition hover:underline"><Link to="/get-in-touch">Contact</Link></li>
                     </ul>
-                    <div className='flex items-center justify-center gap-1'>
-                        <button
-
-                            className="sm:px-4 sm:py-2 px-1 text-sm rounded-sm cursor-pointer text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90">
-                            Hire Me
-                        </button>
+                    <div className='flex items-center gap-1'>
+                        <div className='flex items-center justify-center gap-1 sm:py-2 px-1 text-sm rounded-sm cursor-pointer text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90'>
+                            <a
+                                href="https://mail.google.com/mail/?view=cm&fs=1&to=parmarrutvik1807@gmail.com&su=Hiring Inquiry&body=Hi Rutvik,"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white"
+                            >
+                                Hire Me
+                            </a>
+                        </div>
                         <div className='md:hidden' onClick={() => setShowManu(!showManu)}>
                             <Menu color='white' size={25} />
                         </div>

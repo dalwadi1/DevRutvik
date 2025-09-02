@@ -4,6 +4,18 @@ import React from 'react'
 import { Link } from 'react-router'
 
 const Home = () => {
+    const handleDownloadAndPreview = () => {
+        const fileUrl = "/resume.pdf";
+
+        const previewWindow = window.open(fileUrl, "_blank");
+
+        const link = document.createElement("a");
+        link.href = fileUrl;
+        link.download = "Rutvik_Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <div className="w-full h-screen flex flex-1 flex-col p-10 rounded-3xl backdrop-blur-sm">
             {/* Hero section */}
@@ -26,7 +38,10 @@ const Home = () => {
                         >
                             View Projects
                         </Link>
-                        <button className="text-start cursor-pointer sm:px-5 sm:py-2 p-2 rounded-xl sm:font-medium bg-white text-zinc-900">
+
+                        <button
+                            onClick={handleDownloadAndPreview}
+                            className="text-start cursor-pointer sm:px-5 sm:py-2 p-2 rounded-xl sm:font-medium bg-white text-zinc-900">
                             Download CV
                         </button>
                     </div>
