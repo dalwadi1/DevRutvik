@@ -19,18 +19,18 @@ const projects = [
         description:
             "A personal portfolio website with animations, dark mode and smooth navigation.",
         image: '/images/indiazona.png',
-        tech: ["React", "Framer Motion", "Tailwind"],
+        tech: ["React", "Bootstrap", "Laravel"],
         demoLink: "https://indiazona.in/",
         githubLink: "#",
     },
     {
         id: 3,
-        title: "Admin Dashboard",
+        title: "Face Nova",
         description:
             "A modern dashboard with charts, analytics and user management system.",
-        image: '/images/vishalenterprice.png',
-        tech: ["Next.js", "Recharts", "Tailwind"],
-        demoLink: "#",
+        image: '/images/fashnova.png',
+        tech: ["React", "Tailwind/css", "Shadcn ui"],
+        demoLink: "https://fashnova-ecom.vercel.app/",
         githubLink: "#",
     },
 ];
@@ -63,7 +63,7 @@ const Projects = () => {
                                 {project.tech.map((t, index) => (
                                     <span
                                         key={index}
-                                        className="text-xs bg-indigo-600 px-2 py-1 rounded-full"
+                                        className="text-xs bg-indigo-600 px-2 py-1 rounded-full text-white"
                                     >
                                         {t}
                                     </span>
@@ -75,7 +75,7 @@ const Projects = () => {
                                     href={project.demoLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex items-center gap-2 text-sm bg-gradient-to-r from-pink-500 to-yellow-500 px-3 py-2 rounded-lg hover:opacity-90 transition"
+                                    className="flex items-center gap-2 text-sm bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-3 py-2 rounded-lg hover:opacity-90 transition"
                                 >
                                     <ExternalLink size={16} /> Live Demo
                                 </a>
