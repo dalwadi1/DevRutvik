@@ -29,7 +29,7 @@ My role was mainly focused on frontend development with React, API integration w
     },
     {
         id: 3,
-        title: "Face Nova",
+        title: "Fashnova",
         description:
             `I am developing Fash Nova, a fashion-focused e-commerce web application, using React.js.
 This project includes features like product catalog, search & filter, cart management, and responsive UI design. The goal is to create a modern and user-friendly shopping experience with clean layouts and smooth navigation.
