@@ -32,7 +32,7 @@ const Home = () => {
                     </p>
                     <div className="mt-6 flex gap-3 justify-center">
                         <Link
-                            className="sm:px-5 sm:py-2 p-2 rounded-xl text-white sm:font-medium
+                            className="sm:px-5 sm:py-2 p-2 sm:text-sm text-xs rounded-sm text-white sm:font-medium
           bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
                             to="/work"
                         >
@@ -41,7 +41,7 @@ const Home = () => {
 
                         <button
                             onClick={handleDownloadAndPreview}
-                            className="text-start cursor-pointer sm:px-5 sm:py-2 p-2 rounded-xl sm:font-medium bg-white text-zinc-900">
+                            className="text-start sm:text-sm text-xs cursor-pointer sm:px-5 sm:py-2 p-2 rounded-sm sm:font-medium bg-white text-zinc-900">
                             Download CV
                         </button>
                     </div>

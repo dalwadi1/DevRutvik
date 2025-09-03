@@ -1,9 +1,14 @@
-import { Menu } from 'lucide-react'
-import React, { useState } from 'react'
-import { Link } from 'react-router'
+import { Menu, X } from 'lucide-react'
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router'
 
 const Header = () => {
+    const location = useLocation()
     const [showManu, setShowManu] = useState(false)
+
+    useEffect(() => {
+        setShowManu(false)
+    }, [location])
     return (
         <div className='flex flex-col gap-2'>
             <nav className="fixed top-3 left-0 w-full backdrop-blur-md bg-black/30 border-b border-white/10 z-50">
@@ -30,7 +35,7 @@ const Header = () => {
                             </a>
                         </div>
                         <div className='md:hidden' onClick={() => setShowManu(!showManu)}>
-                            <Menu color='white' size={25} />
+                            {showManu ? <X color='white' size={25} /> : <Menu color='white' size={25} />}
                         </div>
                     </div>
                 </div>
