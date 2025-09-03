@@ -1,6 +1,5 @@
 import { aboutImage } from '@/utils/images'
-import { Cake, EllipsisVertical, Flag, Mail, MapPin, Phone, Settings } from 'lucide-react'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Cake, Flag, Mail, MapPin, Phone, Settings } from 'lucide-react'
 import { Badge } from "@/components/ui/badge"
 import React from 'react'
 
